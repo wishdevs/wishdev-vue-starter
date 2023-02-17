@@ -1,0 +1,24 @@
+{
+  "name": "wishdev-vue-starter",
+  "author": "wishdev",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "clean": "rimraf node_modules pnpm-lock.yaml",
+    "clean:workspaces": "turbo clean"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4",
+    "turbo": "latest",
+    "rimraf": "^4.1.2"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@7.27.0"
+}

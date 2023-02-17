@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import {} from '@wishdev-vue/components'
+import {} from '@wishdevs/vue-components'
 </script>
 
 <template>

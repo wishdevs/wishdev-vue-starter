@@ -1,5 +1,5 @@
 {
-  "name": "@wishdev-vue/components",
+  "name": "@wishdevs/vue-components",
   "version": "0.0.1",
   "private": false,
   "author": "wishdev",
@@ -23,6 +23,9 @@
     "types",
     "README.md"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev-server": "pnpm --parallel vite",
     "dev-types": "vue-tsc  --noEmit -p tsconfig.app.json --watch",
@@ -33,7 +36,7 @@
     "clean": "rimraf dist node_modules"
   },
   "dependencies": {
-    "@wishdev-vue/components": "workspace:*"
+    "@wishdevs/vue-components": "workspace:*"
   },
   "peerDependencies": {
     "vue": "^3.2.47"

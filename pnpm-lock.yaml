@@ -46,7 +46,7 @@ importers:
       '@vue/eslint-config-prettier': ^7.0.0
       '@vue/eslint-config-typescript': ^11.0.0
       '@vue/tsconfig': ^0.1.3
-      '@wishdev-vue/components': workspace:*
+      '@wishdevs/vue-components': workspace:*
       eslint: ^8.22.0
       eslint-plugin-vue: ^9.3.0
       npm-run-all: ^4.1.5
@@ -58,7 +58,7 @@ importers:
       vue-router: ^4.1.6
       vue-tsc: ^1.0.12
     dependencies:
-      '@wishdev-vue/components': link:../../packages/components
+      '@wishdevs/vue-components': link:../../packages/components
       pinia: 2.0.30_5yi2kxxaqg74pgvs6b75qdtvru
       vue: 3.2.47
       vue-router: 4.1.6_vue@3.2.47
@@ -82,13 +82,13 @@ importers:
     specifiers:
       '@vitejs/plugin-vue': ^4.0.0
       '@vue/tsconfig': ^0.1.3
-      '@wishdev-vue/components': workspace:*
+      '@wishdevs/vue-components': workspace:*
       vite: ^4.1.1
       vitest: ^0.28.4
       vue: ^3.2.47
       vue-tsc: ^1.1.2
     dependencies:
-      '@wishdev-vue/components': 'link:'
+      '@wishdevs/vue-components': 'link:'
       vue: 3.2.47
     devDependencies:
       '@vitejs/plugin-vue': 4.0.0_vite@4.1.1+vue@3.2.47

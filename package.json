@@ -2,7 +2,7 @@
   "name": "wishdev-vue-starter",
   "author": "wishdev",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",

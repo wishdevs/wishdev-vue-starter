@@ -1,6 +1,6 @@
 var Lib = function(exports, vue) {
   "use strict";/**
- *  Copyright 2023 Thorsten Luenborg 
+ *  Copyright 2023 wishdev
  *  @license MIT
 **/
 

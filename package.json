@@ -9,7 +9,8 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "clean": "rimraf node_modules pnpm-lock.yaml",
-    "clean:workspaces": "turbo clean"
+    "clean:workspaces": "turbo clean",
+    "publish-packages": "turbo run build && changeset version && changeset publish"
   },
   "devDependencies": {
     "prettier": "^2.8.4",

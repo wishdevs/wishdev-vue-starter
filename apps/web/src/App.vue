@@ -4,9 +4,7 @@ import {} from '@wishdevs/vue-components'
 </script>
 
 <template>
-  <header>
-    1<HelloWorld msg="You did it!" />1
-  </header>
+  <header>1<HelloWorld msg="You did it!" />1</header>
 
   <RouterView />
 </template>

@@ -5,7 +5,7 @@
 ## Usage
 
 ```js
-import VueMonoRepo from 'vue-monorepo-lib'
+import VueWishdev from '@wishdevs/vue-components'
 
 // TODO: DEMONSTRATE API
 ```

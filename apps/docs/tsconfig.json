@@ -1,6 +1,11 @@
 {
-    "extends": "@vue/tsconfig/tsconfig.web.json",
-    "include": ["."],
-    "exclude": ["dist", "build", "node_modules"]
-  }
-  
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules"
+  ]
+}

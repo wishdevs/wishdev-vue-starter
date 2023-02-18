@@ -1,8 +1,18 @@
+import Button from "./button/Button";
+import MyComponent from "./MyComponent.vue";
+import MyComponent2 from "./MyComponent2.vue";
 import type { App } from 'vue'
-import MyComponent from './Component.vue'
 
 function install(app: App) {
 	app.component('MyComponent', MyComponent)
+	app.component('MyComponent2', MyComponent2)
+	app.component('Button', Button)
 }
 
-export { MyComponent, install }
+export {
+  install,
+  MyComponent,
+  MyComponent2,
+  Button
+}
+

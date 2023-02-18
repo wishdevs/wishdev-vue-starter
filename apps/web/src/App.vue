@@ -1,11 +1,7 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import {} from '@wishdevs/vue-components'
-</script>
-
 <template>
-  <header>1<HelloWorld msg="You did it!" />1</header>
+  <Button :msg="msg" :color="color">22</Button>
 
+  <MyComponent message="assd"></MyComponent>
   <RouterView />
 </template>
 
@@ -72,3 +68,12 @@ nav a:first-of-type {
   }
 }
 </style>
+
+<script setup lang="ts">
+import { Button, MyComponent } from '@wishdevs/vue-components';
+import { ref } from 'vue';
+import { RouterLink, RouterView } from 'vue-router'
+
+const msg = ref('');
+const color = ref('');
+</script>

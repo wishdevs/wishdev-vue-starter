@@ -1,12 +1,19 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { fileURLToPath } from 'url'
+import {resolve} from "path";
+import vueJsx from '@vitejs/plugin-vue-jsx'
 
 export default defineConfig({
-	plugins: [vue()],
+	plugins: [vue(), vueJsx()],
+
 	build: {
+    watch: {
+      include: 'src/**',
+      exclude: 'node_modules/**'
+    },
 		lib: {
-			name: 'Lib', // TODO: CHANGE_ME
+			name: 'components',
 			entry: fileURLToPath(new URL('./src/index.ts', import.meta.url)),
 			formats: ['es', 'cjs', 'iife'],
 			fileName: (format) => {
@@ -35,7 +42,7 @@ export default defineConfig({
 				exports: 'named',
 				globals: {
 					vue: 'Vue',
-				},
+				}
 			},
 		},
 	}

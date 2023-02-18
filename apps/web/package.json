@@ -13,10 +13,11 @@
     "clean": "rimraf dist node_modules"
   },
   "dependencies": {
+    "@headlessui/vue": "1.7.10",
+    "@wishdevs/vue-components": "workspace:*",
     "pinia": "^2.0.28",
     "vue": "^3.2.45",
-    "vue-router": "^4.1.6",
-    "@wishdevs/vue-components": "workspace:*"
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",

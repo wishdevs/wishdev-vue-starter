@@ -6,12 +6,10 @@ export default defineComponent({
     msg: String
   },
   setup(props, { slots }) {
-    return () => {
-      return (
-        <button type="button" style="display:inline-block;width: 100px; border: 1px solid #f00">
-          {slots.default?.()}
-        </button>
-      )
-    }
+    return (
+      <button type="button" style="display:inline-block;width: 100px; border: 1px solid #f00">
+        {slots.default?.()}
+      </button>
+    )
   }
 })

@@ -1,7 +1,5 @@
 <template>
-  <Button :msg="msg" :color="color">22</Button>
-
-  <MyComponent message="assd"></MyComponent>
+<Button msg="asas">button</Button>
   <RouterView />
 </template>
 
@@ -70,7 +68,8 @@ nav a:first-of-type {
 </style>
 
 <script setup lang="ts">
-import { Button, MyComponent } from '@wishdevs/vue-components';
+import AboutView from "@/views/AboutView.vue";
+import { Button, MyComponent2 } from "@wishdevs/vue-components";
 import { ref } from 'vue';
 import { RouterLink, RouterView } from 'vue-router'
 

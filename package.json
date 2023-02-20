@@ -3,10 +3,10 @@
   "author": "wishdev",
   "version": "0.0.1",
   "private": false,
-    "workspaces": [
-      "apps/*",
-      "packages/*"
-    ],
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
